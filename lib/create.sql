@@ -15,7 +15,8 @@ CREATE TABLE projects (
 
 CREATE TABLE pledges (
 id PRIMARY KEY INTEGER 
-amount , 
-user_id, 
-project_id
+amount REAL, 
+user_id INTEGER, 
+project_id INTEGER
 );
+
