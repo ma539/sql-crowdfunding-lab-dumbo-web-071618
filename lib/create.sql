@@ -11,6 +11,11 @@ CREATE TABLE projects (
   funding_goal REAL, 
   start_date TEXT, 
   end_date TEXT
-)
+);
 
-CREATE TABLE 
+CREATE TABLE pledges (
+id PRIMARY KEY INTEGER 
+amount , 
+user_id, 
+project_id
+);
